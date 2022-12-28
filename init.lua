@@ -15,6 +15,7 @@ require "lsp.tree-sitter"
 require "lsp.nvim-autopairs"
 
 require "appearance.theme-tokyonight"
+require "appearance.web-devicons"
 ------------------------------
 ---------导入自己配置---------
 ------------------------------

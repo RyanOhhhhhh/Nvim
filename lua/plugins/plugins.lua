@@ -69,7 +69,8 @@ return require('packer').startup({
         -- 文件栏
         use {
         'nvim-tree/nvim-tree.lua',
-            requires = {'nvim-tree/nvim-web-devicons'} -- 文件栏显示的图标
+            requires = {'nvim-tree/nvim-web-devicons'},-- 文件栏显示的图标
+        tag = 'nightly'
         }
 
         -- 文件大纲
