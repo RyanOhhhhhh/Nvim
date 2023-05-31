@@ -13,7 +13,6 @@ vim.opt.termguicolors = true
 -- OR setup with some options
 require("nvim-tree").setup({
   disable_netrw = true,
-  open_on_setup = true,
   sort_by = "name",
   view = {
     adaptive_size = false,
