@@ -17,11 +17,6 @@ require("nvim-tree").setup({
   view = {
     adaptive_size = false,
     width = 20,
-    mappings = {
-      list = {
-        { key = "u", action = "dir_up" },
-      },
-    },
   },
   renderer = {
     group_empty = true,
